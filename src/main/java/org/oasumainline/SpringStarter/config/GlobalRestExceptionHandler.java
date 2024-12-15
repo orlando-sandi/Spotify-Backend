@@ -4,8 +4,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.oasumainline.SpringStarter.exceptions.RestException;
 import org.oasumainline.SpringStarter.exceptions.SpotifyException;
 import org.oasumainline.SpringStarter.exceptions.StorageFileNotFoundException;
-import org.oasumainline.SpringStarter.exceptions.TrackException;
-import org.oasumainline.SpringStarter.models.Track;
 import org.oasumainline.SpringStarter.utils.ErrorMessage;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

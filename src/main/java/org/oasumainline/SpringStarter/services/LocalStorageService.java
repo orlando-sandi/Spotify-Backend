@@ -7,7 +7,6 @@ import org.oasumainline.SpringStarter.storage.StorageMultipartFile;
 import org.oasumainline.SpringStarter.storage.StorageService;
 import org.oasumainline.SpringStarter.utils.RandomUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.FileUrlResource;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
 import org.springframework.http.MediaType;
@@ -16,7 +15,6 @@ import org.springframework.util.FileSystemUtils;
 import org.springframework.web.client.RestClient;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;

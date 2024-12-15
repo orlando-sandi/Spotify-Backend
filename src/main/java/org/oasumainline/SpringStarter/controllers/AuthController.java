@@ -2,15 +2,10 @@ package org.oasumainline.SpringStarter.controllers;
 
 
 import org.oasumainline.SpringStarter.dto.UserRequestDto;
-import org.oasumainline.SpringStarter.exceptions.UserAlreadyExistsException;
 import org.oasumainline.SpringStarter.services.AuthService;
 import org.oasumainline.SpringStarter.utils.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.userdetails.User;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.provisioning.UserDetailsManager;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
