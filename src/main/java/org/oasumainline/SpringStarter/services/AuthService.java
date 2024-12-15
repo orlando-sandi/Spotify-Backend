@@ -16,11 +16,12 @@ public class AuthService {
 
 
     private UserDetailsManager userService;
-    @Autowired
     private PasswordEncoder passwordEncoder;
 
-    public AuthService(@Autowired UserDetailsService userService) {
+    @Autowired
+    public AuthService(UserDetailsService userService, PasswordEncoder passwordEncoder) {
         this.userService = (UserDetailsManager) userService;
+        this.passwordEncoder = passwordEncoder;
     }
 
     public boolean userExists(UserRequestDto user) {
