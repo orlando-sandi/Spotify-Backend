@@ -14,7 +14,7 @@ import java.net.URI;
 @Service
 public class SpotifyService {
 
-    RestClient client;
+    private RestClient client;
 
     @Autowired
     SpotifyService(SpotifyHttpClient spotifyHttpClient) {
