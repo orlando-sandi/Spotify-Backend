@@ -20,6 +20,8 @@ To look for the frontend go to: [Spotify Powered Frontend](https://github.com/or
 
 3 - Download the `secrets.properties` you were provided with and store it inside the resources folder. This file contains the Spotify authentication string.
 
+- You may also duplicate the `secrets.template.properties` file and enter your own values,
+
 4 -  Run the following command to install the dependencies:
 ```bash
 mvn install
